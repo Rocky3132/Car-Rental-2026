@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Choose Your Ride";
+}
+<h2>Book a Car</h2>
+<label>Brand:</label>
+<select id="brandDrop" class="form-control">
+    <option value="">-- Select Brand --</option>
+    @foreach (var b in ViewBag.Brands)
+    {
+        <option value="@b">@b</option>
+    }
+</select>
+
+<label>Model:</label>
+<select id="modelDrop" class="form-control"><option value="">-- Select Model --</option></select>
+
+<div id="details" class="mt-4 p-3 border" style="display:none;">
+    <h4>Vehicle Specifications</h4>
+    <div id="info"></div>
+    <a id="bookBtn" class="btn btn-primary mt-2">Continue to Lease</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $("#brandDrop").change(function () {
+        var brand = $(this).val();
+        $("#details").hide();
+        if (brand) {
+            $.get("/Vehicle/GetModels", { brand: brand }, function (data) {
+                $("#modelDrop").empty().append('<option value="">-- Select Model --</option>');
+                $.each(data, function (i, m) { $("#modelDrop").append('<option value="'+m+'">'+m+'</option>'); });
+            });
+        }
+    });
+
+    $("#modelDrop").change(function () {
+        var model = $(this).val();
+        if (model) {
+            $.get("/Vehicle/GetVehicleDetails", { model: model }, function (data) {
+                var html = "<p>Engine: "+data.engineCapacity+"L</p><p>Seats: "+data.passengerCapacity+"</p><p>Rate: $"+data.dailyRate+"/day</p>";
+                $("#info").html(html);
+                $("#bookBtn").attr("href", "/Lease/Create?vehicleId=" + data.vehicleID);
+                $("#details").show();
+            });
+        }
+    });
+</script>

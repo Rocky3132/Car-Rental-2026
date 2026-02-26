@@ -24,6 +24,7 @@ namespace CarRentalApp
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
@@ -46,6 +47,8 @@ namespace CarRentalApp
 
             app.UseRouting();
 
+          
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

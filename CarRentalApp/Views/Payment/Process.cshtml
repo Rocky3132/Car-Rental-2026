@@ -1,0 +1,35 @@
+﻿@model Models.Payment
+
+<div class="container mt-5">
+    <div class="card shadow border-0">
+        <div class="card-header bg-success text-white text-center">
+            <h2 class="mb-0">Booking Confirmed!</h2>
+        </div>
+        <div class="card-body p-5">
+            <div class="text-center mb-4">
+                <i class="bi bi-check-circle-fill text-success" style="font-size: 3rem;"></i>
+                <h4>Thank you for your payment!</h4>
+            </div>
+
+            <table class="table table-borderless">
+                <tr>
+                    <th class="text-muted">Payment ID:</th>
+                    <td>#@Model.PaymentID</td>
+                </tr>
+                <tr>
+                    <th class="text-muted">Amount Paid:</th>
+                    <td class="text-success font-weight-bold">$@Model.Amount.ToString("F2")</td>
+                </tr>
+                <tr>
+                    <th class="text-muted">Lease End Date:</th>
+                    <td>@Model.Lease.EndDate.ToString("f")</td>
+                </tr>
+            </table>
+
+            <div class="d-grid gap-2 mt-4">
+                <a href="/Vehicle/ChooseRide" class="btn btn-primary">Book Another Car</a>
+              
+            </div>
+        </div>
+    </div>
+</div>

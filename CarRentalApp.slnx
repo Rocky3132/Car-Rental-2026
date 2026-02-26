@@ -1,5 +1,5 @@
 <Solution>
+  <Project Path="assigment/assigment.csproj" />
   <Project Path="CarRentalApp/CarRentalApp.csproj" />
-  <Project Path="DAL/DAL.csproj" Id="c1c357cd-67be-479f-bfc1-3e9c33fe74e0" />
-  <Project Path="Models/Models.csproj" Id="57460b7e-afd4-47d4-b9ce-b456515daf9d" />
+  <Project Path="TestProject1/UnitProject.csproj" Id="7773177f-7c2c-48a8-a8e1-776e608386f2" />
 </Solution>

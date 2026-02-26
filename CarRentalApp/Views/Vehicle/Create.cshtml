@@ -1,0 +1,13 @@
+﻿@model Models.Vehicle
+<h2>Add Vehicle</h2>
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Brand"></label><input asp-for="Brand" class="form-control" />
+        <label asp-for="Model"></label><input asp-for="Model" class="form-control" />
+        <label asp-for="Year"></label><input asp-for="Year" class="form-control" />
+        <label asp-for="DailyRate"></label><input asp-for="DailyRate" class="form-control" />
+        <label asp-for="PassengerCapacity"></label><input asp-for="PassengerCapacity" class="form-control" />
+        <label asp-for="EngineCapacity"></label><input asp-for="EngineCapacity" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Save</button>
+</form>
