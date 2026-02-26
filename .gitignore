@@ -63,3 +63,42 @@ obj/
 *.suo
 *.userosscache
 *.sln.doccache
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Cc]heckout/
+*{_i.c,_p.c}
+*{_h.h}
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.buildlog
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
