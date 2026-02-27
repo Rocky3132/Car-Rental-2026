@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,33 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
-              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
-              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T09:13:39.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChooseRide.cshtml",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
-              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml*",
-              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T09:09:39.74Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
