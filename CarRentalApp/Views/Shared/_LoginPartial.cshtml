@@ -14,9 +14,9 @@
         {
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-primary fw-bold" href="#" id="adminNav" role="button" data-bs-toggle="dropdown">
-                     Management
+                    <i class="bi bi-gear-fill"></i> Management
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu shadow">
                     <li><a class="dropdown-item" asp-controller="Vehicle" asp-action="Index"> Vehicles</a></li>
                     <li><a class="dropdown-item" asp-controller="Customer" asp-action="Index"> Customers</a></li>
                     <li><a class="dropdown-item" asp-controller="Payment" asp-action="Index"> Payments</a></li>
@@ -27,7 +27,15 @@
         else
         {
             <li class="nav-item">
-                <a class="nav-link text-success fw-bold" asp-controller="Vehicle" asp-action="ChooseRide"> Book a Ride</a>
+                <a class="nav-link text-success fw-bold" asp-controller="Vehicle" asp-action="ChooseRide">
+                    <i class="bi bi-plus-circle"></i> Book a Ride
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-primary fw-bold" asp-controller="Lease" asp-action="MyRentals">
+                    <i class="bi bi-car-front-fill"></i> My Rentals
+                </a>
             </li>
         }
 

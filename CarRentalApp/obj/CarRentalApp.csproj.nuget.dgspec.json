@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\CarRentalApp.csproj": {}
+    "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\CarRentalApp.csproj": {
+    "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\CarRentalApp.csproj",
+        "projectUniqueName": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
         "projectName": "CarRentalApp",
-        "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\CarRentalApp.csproj",
+        "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\obj\\",
+        "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\DAL.csproj"
+              "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj"
+              "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\DAL.csproj": {
+    "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj"
+              "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj"
               }
             }
           }
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj": {
+    "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\Models\\obj\\",
+        "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

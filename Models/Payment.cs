@@ -17,7 +17,7 @@ namespace Models
         public int LeaseID { get; set; }
         public Lease? Lease { get; set; }
 
-        public DateTime PaymentDate { get; set; }
+        public DateTime? PaymentDate { get; set; }
         public double Amount { get; set; }
     }
 }

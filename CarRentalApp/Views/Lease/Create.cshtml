@@ -1,5 +1,7 @@
 ﻿@model Models.Lease
 @{
+    ViewData["Title"] = "Set Duration";
+   
     var vehicle = ViewBag.Vehicle as Models.Vehicle;
 }
 
@@ -7,50 +9,57 @@
     <h2>Set Your Lease Duration</h2>
     <hr />
 
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h4 class="card-title">@vehicle.Brand @vehicle.Model</h4>
-                    <p class="text-muted">Year: @vehicle.Year</p>
-                    <p><strong>Standard Daily Rate:</strong> $@vehicle.DailyRate</p>
-                    <p><strong>Calculated Hourly Rate:</strong> $@((vehicle.DailyRate / 24).ToString("F2"))</p>
-                </div>
+    @if (vehicle != null)
+    {
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h4 class="card-title">@vehicle.Brand @vehicle.Model</h4>
+                <p class="text-muted">Year: @vehicle.Year</p>
+            
+                <p><strong>Standard Daily Rate:</strong> $@vehicle.DailyRate.ToString("F2")</p>
+
+                <p><strong>Calculated Hourly Rate:</strong> $@(((double)vehicle.DailyRate / 24.0).ToString("F2"))</p>
             </div>
         </div>
 
-        <div class="col-md-6">
-            <form asp-action="ProceedToCustomer" method="post">
-                <input type="hidden" name="vehicleId" value="@vehicle.VehicleID" />
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="ProceedToCustomer" method="post">
+              
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="vehicleId" value="@vehicle.VehicleID" />
 
-                <div class="form-group mb-3">
-                    <label class="form-label">How many hours would you like to rent?</label>
-                    <input type="number" name="hours" id="inputHours" class="form-control" min="1" max="240" required />
-                    <small class="text-muted">Enter hours (e.g., 5, 10, 24)</small>
-                </div>
+                    <div class="form-group mb-3">
+                        <label class="form-label">How many hours would you like to rent?</label>
+                        <input type="number" name="hours" id="inputHours" class="form-control" min="1" max="240" required />
+                    </div>
 
-                <div class="alert alert-info">
-                    <h5>Total Estimated Price: $<span id="displayPrice">0.00</span></h5>
-                </div>
+                    <div class="alert alert-info">
+                        <h5>Total Estimated Price: $<span id="displayPrice">0.00</span></h5>
+                    </div>
 
-                <button type="submit" class="btn btn-success w-100">Confirm Hours & Enter Details</button>
-            </form>
+                    <button type="submit" class="btn btn-success w-100">Confirm Hours & Enter Details</button>
+                </form>
+            </div>
         </div>
-    </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">Vehicle details could not be loaded. Please go back and try again.</div>
+    }
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        // Calculate price live as the user types hours
         $("#inputHours").on("input", function () {
             var hours = $(this).val();
-            var dailyRate = @vehicle.DailyRate;
 
             if (hours > 0) {
-                // AJAX logic: Calling the CalculatePrice method in VehicleController
-                $.get("/Vehicle/CalculatePrice", { vehicleId: @vehicle.VehicleID, hours: hours }, function (data) {
-                    $("#displayPrice").text(data.toFixed(2));
+            
+                $.get("/Vehicle/CalculatePrice", { vehicleId: '@(vehicle?.VehicleID)', hours: hours }, function (data) {
+                    var price = parseFloat(data);
+                    $("#displayPrice").text(price.toFixed(2));
                 });
             } else {
                 $("#displayPrice").text("0.00");

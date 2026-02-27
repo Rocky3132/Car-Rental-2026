@@ -1,0 +1,64 @@
+﻿@using Models
+@model IEnumerable<Lease>
+
+@{
+    ViewData["Title"] = "Active Rentals";
+}
+
+<div class="container mt-4">
+    <h3><i class="fa fa-stopwatch"></i> Active Rentals</h3>
+    <div class="table-responsive shadow-sm rounded">
+        <table class="table table-hover bg-white mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>Car</th>
+                    <th>Started</th>
+                    <th>Current Duration</th>
+                    <th>Status</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                      
+                            <td><b>@(item.Vehicle?.Brand ?? "Unknown") @(item.Vehicle?.Model ?? "Vehicle")</b></td>
+
+                            <td>@(item.StartDate?.ToString("HH:mm (MMM dd)") ?? "N/A")</td>
+
+                         
+                            <td>
+                                @if (item.StartDate.HasValue)
+                                {
+                                    var liveSpan = DateTime.Now - item.StartDate.Value;
+                                    <span class="text-primary fw-bold">@liveSpan.TotalHours.ToString("F1") hrs</span>
+                                }
+                                else
+                                {
+                                    <span>--</span>
+                                }
+                            </td>
+
+                            <td><span class="badge bg-warning text-dark px-3 py-2">LIVE TIMER</span></td>
+
+                            <td class="text-end">
+                                <a asp-controller="Lease" asp-action="ReturnSummary" asp-route-id="@item.LeaseID" class="btn btn-danger btn-sm px-4">
+                                    <i class="fa fa-hand-holding-usd"></i> Stop & Pay
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center p-4 text-muted">No active rentals found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

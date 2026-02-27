@@ -1,50 +1,87 @@
 ﻿@model Models.Vehicle
 
-<h2>Edit Vehicle</h2>
+@{
+    ViewData["Title"] = "Edit Vehicle";
+}
 
-<form asp-action="Edit" method="post">
-    @Html.AntiForgeryToken()
-    <input type="hidden" asp-for="VehicleID" />
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow border-0">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0"><i class="fa fa-edit"></i> Edit Vehicle Details</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="VehicleID" />
 
-    <div class="form-group mb-3">
-        <label asp-for="Brand" class="form-label"></label>
-        <input asp-for="Brand" class="form-control" />
+                        <div class="row">
+                     
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Brand" class="form-label fw-bold"></label>
+                                <input asp-for="Brand" class="form-control" />
+                                <span asp-validation-for="Brand" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Model" class="form-label fw-bold"></label>
+                                <input asp-for="Model" class="form-control" />
+                                <span asp-validation-for="Model" class="text-danger small"></span>
+                            </div>
+
+                      
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Year" class="form-label fw-bold"></label>
+                                <input asp-for="Year" class="form-control" type="number" />
+                                <span asp-validation-for="Year" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Status" class="form-label fw-bold"></label>
+                                <select asp-for="Status" class="form-select">
+                                    <option value="Available">Available</option>
+                                    <option value="Rented">Rented</option>
+                                    <option value="Maintenance">Maintenance</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="DailyRate" class="form-label fw-bold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                
+                                    <input asp-for="DailyRate" class="form-control" type="number" step="0.01" />
+                                </div>
+                                <span asp-validation-for="DailyRate" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="PassengerCapacity" class="form-label fw-bold">Seats</label>
+                                <input asp-for="PassengerCapacity" class="form-control" type="number" />
+                                <span asp-validation-for="PassengerCapacity" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="EngineCapacity" class="form-label fw-bold">Engine (cc)</label>
+                                <input asp-for="EngineCapacity" class="form-control" type="number" />
+                                <span asp-validation-for="EngineCapacity" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4">Cancel</a>
+                            <button type="submit" class="btn btn-warning px-5 fw-bold">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="form-group mb-3">
-        <label asp-for="Model" class="form-label"></label>
-        <input asp-for="Model" class="form-control" />
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="Year" class="form-label"></label>
-        <input asp-for="Year" class="form-control" />
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="DailyRate" class="form-label"></label>
-        <input asp-for="DailyRate" class="form-control" />
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="Status" class="form-label"></label>
-        <select asp-for="Status" class="form-control">
-            <option value="Available">Available</option>
-            <option value="Rented">Rented</option>
-            <option value="Maintenance">Maintenance</option>
-        </select>
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="PassengerCapacity" class="form-label"></label>
-        <input asp-for="PassengerCapacity" class="form-control" />
-    </div>
-
-    <div class="form-group mb-3">
-        <label asp-for="EngineCapacity" class="form-label"></label>
-        <input asp-for="EngineCapacity" class="form-control" />
-    </div>
-
-    <button type="submit" class="btn btn-warning">Save Changes</button>
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-</form>
+@section Scripts {
+    @* Enable client-side validation *@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

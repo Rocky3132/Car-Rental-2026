@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KEmuFQuVoM4=",
+  "dgSpecHash": "1Tt58tP5/1Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KIIT\\source\\CarRepo\\CarRentalApp\\CarRentalApp\\CarRentalApp.csproj",
+  "projectFilePath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KIIT\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\KIIT\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -18,17 +18,18 @@
                 </tr>
                 <tr>
                     <th class="text-muted">Amount Paid:</th>
-                    <td class="text-success font-weight-bold">$@Model.Amount.ToString("F2")</td>
+              
+                    <td class="text-success fw-bold">$@Model.Amount.ToString("F2")</td>
                 </tr>
                 <tr>
                     <th class="text-muted">Lease End Date:</th>
-                    <td>@Model.Lease.EndDate.ToString("f")</td>
+                  
+                    <td>@(Model.Lease?.EndDate?.ToString("f") ?? "N/A")</td>
                 </tr>
             </table>
 
             <div class="d-grid gap-2 mt-4">
                 <a href="/Vehicle/ChooseRide" class="btn btn-primary">Book Another Car</a>
-              
             </div>
         </div>
     </div>

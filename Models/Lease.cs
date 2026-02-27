@@ -21,8 +21,8 @@ namespace Models
         public int CustomerID { get; set; }
         public Customer? Customer { get; set; }
 
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
 
         public string? Type { get; set; }
 
