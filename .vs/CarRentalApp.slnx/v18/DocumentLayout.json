@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|e:\\wipro\\car rental project\\car-rental-2026\\carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,116 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABoAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:22:53.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CarRentalApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:08:52.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CarRentalApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:08:15.689Z",
+              "WhenOpened": "2026-02-27T09:13:39.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CarRentalApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:07:50.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Program.cs",
-              "RelativeDocumentMoniker": "CarRentalApp\\Program.cs",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Program.cs",
-              "RelativeToolTip": "CarRentalApp\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:04:56.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\VehicleController.cs",
-              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\VehicleController.cs",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\VehicleController.cs",
-              "RelativeToolTip": "CarRentalApp\\Controllers\\VehicleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:53:31.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\appsettings.json",
-              "RelativeDocumentMoniker": "CarRentalApp\\appsettings.json",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\appsettings.json",
-              "RelativeToolTip": "CarRentalApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-26T10:28:38.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CarRentalApp\\appsettings.Development.json",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\appsettings.Development.json",
-              "RelativeToolTip": "CarRentalApp\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-26T10:28:27.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\PaymentController.cs",
-              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "CarRentalApp\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAhwDwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:09:57.853Z"
+              "DocumentIndex": 0,
+              "Title": "ChooseRide.cshtml",
+              "DocumentMoniker": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "ToolTip": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml*",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T09:09:39.74Z",
+              "EditorCaption": ""
             }
           ]
         }
