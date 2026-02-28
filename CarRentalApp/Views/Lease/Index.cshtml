@@ -17,31 +17,63 @@
                         <th>Vehicle</th>
                         <th>Start Time</th>
                         <th>End Time</th>
+                        <th>Duration</th>
                         <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var item in Model)
+                    @if (Model != null && Model.Any())
                     {
-                        bool isExpired = item.EndDate < DateTime.Now;
+                        @foreach (var item in Model)
+                        {
+                    
+                            bool isExpired = item.EndDate.HasValue && item.EndDate.Value < DateTime.Now;
+
+                            <tr>
+                                <td>
+                                    <strong>@item.Customer?.FirstName @item.Customer?.LastName</strong><br />
+                                    <small class="text-muted">ID: #@item.CustomerID</small>
+                                </td>
+                                <td>@item.Vehicle?.Brand @item.Vehicle?.Model</td>
+
+                                <td>@item.StartDate?.ToString("g")</td>
+                                <td>@(item.EndDate?.ToString("g") ?? "Still Active")</td>
+
+
+                                <td>
+                                    @if (item.StartDate.HasValue && item.EndDate.HasValue)
+                                    {
+                                        var span = item.EndDate.Value - item.StartDate.Value;
+                                        <span>@span.TotalHours.ToString("F1") hrs</span>
+                                    }
+                                    else if (item.StartDate.HasValue)
+                                    {
+                                        var activeSpan = DateTime.Now - item.StartDate.Value;
+                                        <span>@activeSpan.TotalHours.ToString("F1") hrs (Live)</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">N/A</span>
+                                    }
+                                </td>
+
+                                <td>
+                                    @if (isExpired)
+                                    {
+                                        <span class="badge bg-secondary">Completed</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success text-white">Active</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
                         <tr>
-                            <td>
-                                <strong>@item.Customer.FirstName @item.Customer.LastName</strong><br />
-                                <small class="text-muted">ID: #@item.CustomerID</small>
-                            </td>
-                            <td>@item.Vehicle.Brand @item.Vehicle.Model</td>
-                            <td>@item.StartDate.ToString("g")</td>
-                            <td>@item.EndDate.ToString("g")</td>
-                            <td>
-                                @if (isExpired)
-                                {
-                                    <span class="badge bg-secondary">Completed</span>
-                                }
-                                else
-                                {
-                                    <span class="badge bg-success text-white">Active</span>
-                                }
-                            </td>
+                            <td colspan="6" class="text-center text-muted">No lease records found.</td>
                         </tr>
                     }
                 </tbody>

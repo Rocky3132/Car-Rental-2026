@@ -1,69 +1,91 @@
-﻿using DAL;
-using Microsoft.AspNetCore.Authorization;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using DAL;
 using Models;
+using Microsoft.AspNetCore.Authorization;
 using System;
 
 namespace CarRentalApp.Controllers
 {
     public class PaymentController : Controller
     {
-        private readonly VehicleDbContext _context;
+        private readonly IPaymentRepository _paymentRepo;
+        private readonly IVehicleRepository _vehicleRepo;
+        private readonly ILeaseRepository _leaseRepo;
 
-        public PaymentController(VehicleDbContext context)
+        public PaymentController(IPaymentRepository paymentRepo, IVehicleRepository vehicleRepo, ILeaseRepository leaseRepo)
         {
-            _context = context;
+            _paymentRepo = paymentRepo;
+            _vehicleRepo = vehicleRepo;
+            _leaseRepo = leaseRepo;
         }
 
-        // GET: Payment/Process
-        public IActionResult Process(int vId, int cId, double hrs)
+   
+        public IActionResult Process(int vId, int cId)
         {
-            var vehicle = _context.Vehicles.Find(vId);
+            var vehicle = _vehicleRepo.GetById(vId);
             if (vehicle == null) return RedirectToAction("ChooseRide", "Vehicle");
 
-            // 1. Create the Lease Record
+
             var lease = new Lease
             {
                 VehicleID = vId,
                 CustomerID = cId,
                 StartDate = DateTime.Now,
-                EndDate = DateTime.Now.AddHours(hrs),
+                EndDate = null, 
                 Type = "Hourly"
             };
-            _context.Leases.Add(lease);
 
-            // 2. Mark Vehicle as Rented (This is crucial for your filters)
+            
             vehicle.Status = "Rented";
-            _context.Vehicles.Update(vehicle);
 
-            // 3. Create the Payment Record
+            _leaseRepo.Add(lease);
+            _vehicleRepo.Update(vehicle);
+
+            return RedirectToAction("BookingConfirmed");
+        }
+        public IActionResult BookingConfirmed()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult FinalizeReturn(int leaseId, decimal amount)
+        {
+         
+            var lease = _leaseRepo.GetLeaseWithVehicle(leaseId);
+            if (lease == null) return NotFound();
+
+            var vehicle = _vehicleRepo.GetById(lease.VehicleID);
+            if (vehicle == null) return NotFound();
+
+          
             var payment = new Payment
             {
-                Lease = lease, // EF will automatically link the LeaseID
+                LeaseID = leaseId,
                 PaymentDate = DateTime.Now,
-                Amount = (vehicle.DailyRate / 24) * hrs
+        
+                Amount = (double)amount
             };
-            _context.Payments.Add(payment);
 
-            // 4. Save everything to the Database in one transaction
-            _context.SaveChanges();
+          
+            lease.EndDate = DateTime.Now;
 
-            // Pass the payment object to the view to show the receipt
-            return View(payment);
+            vehicle.Status = "Available";
+
+         
+            _paymentRepo.ProcessPayment(payment, vehicle);
+            _leaseRepo.Update(lease);
+
+         
+            return View("Success", payment);
         }
+
         [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
-            // We join the Lease and Customer tables to get the full story
-            var payments = _context.Payments
-                .Include(p => p.Lease)
-                    .ThenInclude(l => l.Customer)
-                .Include(p => p.Lease)
-                    .ThenInclude(l => l.Vehicle)
-                .OrderByDescending(p => p.PaymentDate)
-                .ToList();
-
+            var payments = _paymentRepo.GetAllWithDetails();
             return View(payments);
         }
     }

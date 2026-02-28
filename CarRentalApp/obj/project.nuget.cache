@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+19vfl4Z3iY=",
   "success": true,
   "projectFilePath": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
+=======
+  "dgSpecHash": "1Tt58tP5/1Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
+>>>>>>> origin/master
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

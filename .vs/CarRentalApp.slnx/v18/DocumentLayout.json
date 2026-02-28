@@ -1,7 +1,168 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\controllers\\leasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\leasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\lease\\returnsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\lease\\returnsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\leaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\leaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\vehicledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\vehicledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\models\\lease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\lease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\ileaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ileaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\chooseride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\exceptions\\vehiclenotfoundexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\vehiclenotfoundexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\payment\\process.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\payment\\process.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\payment\\bookingconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\payment\\bookingconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\lease\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\lease\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC02708-50CF-4E34-8E3B-79DF39E16467}|CarRental.Tests\\CarRental.Tests.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrental.tests\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC02708-50CF-4E34-8E3B-79DF39E16467}|CarRental.Tests\\CarRental.Tests.csproj|solutionrelative:carrental.tests\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC02708-50CF-4E34-8E3B-79DF39E16467}|CarRental.Tests\\CarRental.Tests.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrental.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC02708-50CF-4E34-8E3B-79DF39E16467}|CarRental.Tests\\CarRental.Tests.csproj|solutionrelative:carrental.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\migrations\\20260225112708_myfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20260225112708_myfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\dal\\migrations\\20260225095214_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20260225095214_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|c:\\users\\kiit\\source\\newcar\\car-rental-2026\\carrentalapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{015B659B-639D-FDCF-0F69-148C052470BF}|CarRentalApp\\CarRentalApp.csproj|solutionrelative:carrentalapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +170,527 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "CarRentalApp\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwE0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:37:11.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeaseController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\LeaseController.cs",
+              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\LeaseController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\LeaseController.cs*",
+              "RelativeToolTip": "CarRentalApp\\Controllers\\LeaseController.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowEoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:20:21.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\LeaseRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\LeaseRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\LeaseRepository.cs",
+              "RelativeToolTip": "DAL\\LeaseRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwD0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:32:30.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReturnSummary.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\ReturnSummary.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Lease\\ReturnSummary.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\ReturnSummary.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Lease\\ReturnSummary.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T08:54:40.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\PaymentRepository.cs",
+              "RelativeToolTip": "DAL\\PaymentRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:33:32.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehicleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\VehicleDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\VehicleDbContext.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\VehicleDbContext.cs",
+              "RelativeToolTip": "DAL\\VehicleDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:14:05.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IVehicleRepository.cs",
+              "RelativeToolTip": "DAL\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:32:00.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T11:45:35.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "CarRentalApp\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwEUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T11:40:01.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IcustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IcustomerRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IcustomerRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IcustomerRepository.cs",
+              "RelativeToolTip": "DAL\\IcustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:29:16.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lease.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Lease.cs",
+              "RelativeDocumentMoniker": "Models\\Lease.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Lease.cs",
+              "RelativeToolTip": "Models\\Lease.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:12:02.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\VehicleRepository.cs",
+              "RelativeToolTip": "DAL\\VehicleRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:34:47.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILeaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\ILeaseRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\ILeaseRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\ILeaseRepository.cs",
+              "RelativeToolTip": "DAL\\ILeaseRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:30:23.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Delete.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T11:55:51.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChooseRide.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\ChooseRide.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T12:38:44.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:33:31.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CarRentalApp\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CarRentalApp\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:30:31.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:59:12.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehicleNotFoundExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Exceptions\\VehicleNotFoundExceptions.cs",
+              "RelativeDocumentMoniker": "DAL\\Exceptions\\VehicleNotFoundExceptions.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Exceptions\\VehicleNotFoundExceptions.cs",
+              "RelativeToolTip": "DAL\\Exceptions\\VehicleNotFoundExceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:36:56.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T11:55:15.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Vehicle\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T11:54:29.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Payment\\Success.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T08:39:46.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Process.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Process.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Payment\\Process.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Process.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Payment\\Process.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:37:59.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvycAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T14:08:51.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingConfirmed.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\BookingConfirmed.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Payment\\BookingConfirmed.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Payment\\BookingConfirmed.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Payment\\BookingConfirmed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T08:49:10.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Lease\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\Create.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Lease\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:21:59.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Lease\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Lease\\Index.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Lease\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T14:12:08.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260227083543_MakeEndDateNullable.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20260227083543_MakeEndDateNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T08:35:43.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:13:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentalApp\\Program.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Program.cs",
+              "RelativeToolTip": "CarRentalApp\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:14:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TestFile.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRental.Tests\\TestFile.cs",
+              "RelativeDocumentMoniker": "CarRental.Tests\\TestFile.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRental.Tests\\TestFile.cs",
+              "RelativeToolTip": "CarRental.Tests\\TestFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:41:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRental.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CarRental.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRental.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "CarRental.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:40:44.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\IPaymentRepository.cs",
+              "RelativeToolTip": "DAL\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:31:17.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\CustomerRepository.cs",
+              "RelativeToolTip": "DAL\\CustomerRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:28:09.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalApp\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "CarRentalApp\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAEBVwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T14:07:23.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\appsettings.json",
+              "RelativeDocumentMoniker": "CarRentalApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\appsettings.json",
+              "RelativeToolTip": "CarRentalApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T09:15:03.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260225112708_myfirst.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260225112708_myfirst.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20260225112708_myfirst.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260225112708_myfirst.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20260225112708_myfirst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T11:27:08.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:10:11.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:08:28.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260225095214_initial.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260225095214_initial.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20260225095214_initial.cs",
+              "ToolTip": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\Migrations\\20260225095214_initial.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20260225095214_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:15.112Z",
+              "EditorCaption": ""
             }
           ]
         }

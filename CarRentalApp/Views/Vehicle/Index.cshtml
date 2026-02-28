@@ -1,29 +1,68 @@
 ﻿@model IEnumerable<Models.Vehicle>
-<h2>Fleet Management</h2>
-<p><a asp-action="Create" class="btn btn-primary">Add New Vehicle</a></p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Brand</th>
-            <th>Model</th>
-            <th>Daily Rate</th>
-            <th>Status</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Brand</td>
-                <td>@item.Model</td>
-                <td>@item.DailyRate</td>
-                <td><span class="badge @(item.Status == "Available" ? "bg-success" : "bg-danger")">@item.Status</span></td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.VehicleID">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@item.VehicleID">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+@{
+    ViewData["Title"] = "Fleet Management";
+}
+
+<div class="container mt-4">
+    <div class="card shadow border-0">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0"><i class="fa fa-car"></i> Fleet Management</h4>
+            <a asp-action="Create" class="btn btn-light btn-sm">
+                <i class="fa fa-plus"></i> Add New Vehicle
+            </a>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover align-middle">
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Brand</th>
+                        <th>Model</th>
+                        <th>Daily Rate</th>
+                        <th>Status</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><strong>@item.Brand</strong></td>
+                                <td>@item.Model</td>
+
+                            
+                                <td>$@item.DailyRate.ToString("F2")</td>
+
+                                <td>
+                                    <span class="badge @(item.Status == "Available" ? "bg-success" : "bg-danger") px-3">
+                                        @item.Status
+                                    </span>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.VehicleID" class="btn btn-outline-primary btn-sm">
+                                            <i class="fa fa-edit"></i> Edit
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.VehicleID" class="btn btn-danger">
+                                            Delete
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center text-muted py-4">
+                                No vehicles found in the fleet. Click "Add New Vehicle" to start.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>ble>

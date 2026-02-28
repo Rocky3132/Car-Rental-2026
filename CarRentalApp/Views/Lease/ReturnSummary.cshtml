@@ -1,0 +1,42 @@
+﻿@model Models.Lease
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5 card shadow p-4 text-center">
+            <h4 class="text-danger"><i class="fa fa-flag-checkered"></i> Finish Rental</h4>
+            <hr />
+
+          
+            <h5>@(Model.Vehicle?.Brand ?? "Vehicle") @(Model.Vehicle?.Model ?? "")</h5>
+
+            @{
+               
+                var startDate = Model.StartDate ?? DateTime.Now.AddHours(-1);
+                var span = DateTime.Now - startDate;
+
+             
+                double totalHrs = Math.Max(span.TotalHours, 0.1);
+
+                decimal hourlyRate = (decimal)(Model.Vehicle?.DailyRate ?? 0) / 24m;
+                decimal cost = hourlyRate * (decimal)totalHrs;
+            }
+
+            <div class="my-4 py-3 bg-light rounded">
+                <p class="mb-1 text-muted">Time Used</p>
+              
+                <h3 class="fw-bold">@((int)totalHrs)h @span.Minutes m</h3>
+
+                <p class="mt-3 mb-1 text-muted">Total Amount Due</p>
+              
+                <h2 class="text-success fw-bold">$@cost.ToString("F2")</h2>
+            </div>
+
+            <form asp-controller="Payment" asp-action="FinalizeReturn" method="post">
+                <input type="hidden" name="leaseId" value="@Model.LeaseID" />
+              
+                <input type="hidden" name="amount" value="@cost.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture)" />
+                <button type="submit" class="btn btn-primary btn-lg w-100">Pay & Finish</button>
+            </form>
+        </div>
+    </div>
+</div>

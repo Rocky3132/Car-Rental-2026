@@ -1,6 +1,10 @@
-﻿@{
+﻿@using Models
+@{
     ViewBag.Title = "Choose Your Ride";
+   
+    var brands = ViewBag.Brands as IEnumerable<string> ?? new List<string>();
 }
+<<<<<<< HEAD
 <style>
     .body_background{
         background:  url("https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=1200&auto=format&fit=crop&q=80") no-repeat center center;
@@ -54,29 +58,61 @@
         <option value="@b">@b</option>
     }
 </select>
+=======
+>>>>>>> origin/master
 
-<label>Model:</label>
-<select id="modelDrop" class="form-control"><option value="">-- Select Model --</option></select>
+<div class="container mt-4">
+    <div class="card shadow border-0">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="fa fa-car"></i> Select a Vehicle</h3>
+        </div>
+        <div class="card-body p-4">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">1. Brand</label>
+                    <select id="brandDrop" class="form-select">
+                        <option value="">-- Select Brand --</option>
+                        @foreach (var b in brands)
+                        {
+                            <option value="@b">@b</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">2. Model</label>
+                    <select id="modelDrop" class="form-select" disabled>
+                        <option value="">-- Select Model --</option>
+                    </select>
+                </div>
+            </div>
 
+<<<<<<< HEAD
 <div id="details" class="mt-4 p-3 border" style="display:none;">
     <h4 class="vehic_spec">Vehicle Specifications</h4>
     <div id="info"></div>
     <a id="bookBtn" class="btn btn-primary mt-2">Continue to Lease</a>
+=======
+            <div id="detailsArea" class="mt-4 p-3 border rounded bg-light" style="display:none;">
+                <div id="specs" class="row text-center"></div>
+                <div class="alert alert-info mt-3 small">
+                    <i class="fa fa-clock"></i> Live Timer: Billing starts when you confirm your details.
+                </div>
+                <a id="bookBtn" class="btn btn-success w-100 btn-lg mt-2">Start My Rental</a>
+            </div>
+        </div>
+    </div>
+>>>>>>> origin/master
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $("#brandDrop").change(function () {
-        var brand = $(this).val();
-        $("#details").hide();
-        if (brand) {
-            $.get("/Vehicle/GetModels", { brand: brand }, function (data) {
-                $("#modelDrop").empty().append('<option value="">-- Select Model --</option>');
-                $.each(data, function (i, m) { $("#modelDrop").append('<option value="'+m+'">'+m+'</option>'); });
-            });
-        }
-    });
+@section Scripts {
+    <script>
+      
+        $('#brandDrop').change(function () {
+            var b = $(this).val();
+            $('#detailsArea').hide();
+            $('#modelDrop').empty().append('<option value="">-- Select Model --</option>').prop('disabled', !b);
 
+<<<<<<< HEAD
     $("#modelDrop").change(function () {
         var model = $(this).val();
         if (model) {
@@ -90,3 +126,36 @@
     });
 </script>
 </div>
+=======
+            if (b) {
+                $.get('/Vehicle/GetModels', { brand: b }, function (data) {
+                    $.each(data, function (i, m) {
+                        $('#modelDrop').append($('<option>', { value: m, text: m }));
+                    });
+                });
+            }
+        });
+
+        
+        $('#modelDrop').change(function () {
+            var m = $(this).val();
+            if (m) {
+                $.get('/Vehicle/GetVehicleDetails', { model: m }, function (v) {
+                    var dailyRate = parseFloat(v.dailyRate) || 0;
+                    var rate = (dailyRate / 24).toFixed(2);
+
+                    $('#specs').html(`
+                        <div class="col-4"><b>Brand:</b><br>${v.brand}</div>
+                        <div class="col-4"><b>Model:</b><br>${v.model}</div>
+                        <div class="col-4 text-success"><b>$${rate}/hr</b></div>
+                    `);
+
+
+        $('#bookBtn').attr('href', '/Customer/Create?vehicleId=' + v.vehicleID);
+                    $('#detailsArea').fadeIn();
+                });
+            }
+        });
+    </script>
+}
+>>>>>>> origin/master

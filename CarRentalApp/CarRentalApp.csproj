@@ -20,4 +20,10 @@
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Customer\" />
+    <Folder Include="Views\Lease\" />
+    <Folder Include="Views\Vehicle\" />
+  </ItemGroup>
+
 </Project>

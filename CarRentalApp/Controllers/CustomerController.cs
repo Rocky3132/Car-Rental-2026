@@ -2,59 +2,59 @@
 using Models;
 using DAL;
 using System.Linq;
-using Microsoft.AspNetCore.Authorization; // Add this for security
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace CarRentalApp.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly VehicleDbContext _context;
+        private readonly ICustomerRepository _repo;
 
-        public CustomerController(VehicleDbContext context)
+        public CustomerController(ICustomerRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
-        // ================= ADMIN SECTION =================
 
-        // GET: Customer/Index
-        // Only Admins can see the list of all customers
         [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
-            var allCustomers = _context.Customers.ToList();
+            var allCustomers = _repo.GetAll();
             return View(allCustomers);
         }
 
-        // ================= CUSTOMER SECTION =================
 
-        // GET: Customer/Create
-        public IActionResult Create(int vehicleId, double hours)
+        [Authorize]
+        public IActionResult Create(int vehicleId)
         {
+            ViewBag.UserEmail = User.Identity?.Name;
             ViewBag.VehicleID = vehicleId;
-            ViewBag.Hours = hours;
+
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Customer customer, int vehicleId, double hours)
+        [Authorize]
+        public IActionResult Create(Customer customer, int vehicleId)
         {
             if (ModelState.IsValid)
             {
-                _context.Customers.Add(customer);
-                _context.SaveChanges();
+
+                _repo.Add(customer);
+
 
                 return RedirectToAction("Process", "Payment", new
                 {
                     vId = vehicleId,
-                    cId = customer.CustomerID,
-                    hrs = hours
+                    cId = customer.CustomerID
                 });
             }
 
+
+            ViewBag.UserEmail = User.Identity?.Name;
             ViewBag.VehicleID = vehicleId;
-            ViewBag.Hours = hours;
             return View(customer);
         }
     }

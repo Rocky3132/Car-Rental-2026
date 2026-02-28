@@ -5,24 +5,20 @@ using Models;
 using System.Linq;
 using Microsoft.AspNetCore.Authorization;
 
+using DAL.Exceptions;
+
 namespace CarRentalApp.Controllers
 {
     public class VehicleController : Controller
     {
-        private readonly VehicleDbContext _context;
+        private readonly IVehicleRepository _repo;
 
-        public VehicleController(VehicleDbContext context)
-        {
-            _context = context;
-        }
+        public VehicleController(IVehicleRepository repo) => _repo = repo;
 
-        
+        [Authorize(Roles = "Admin")]
+        public IActionResult Index() => View(_repo.GetAll());
 
-        // GET: Vehicle/Index
-        [Authorize(Roles ="Admin")]
-        public IActionResult Index() => View(_context.Vehicles.ToList());
-
-        // GET: Vehicle/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create() => View();
 
         [HttpPost]
@@ -32,17 +28,18 @@ namespace CarRentalApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                vehicle.Status = "Available"; // New cars start as available
-                _context.Vehicles.Add(vehicle);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
+                _repo.Add(vehicle);
+                return RedirectToAction(nameof(Index));
             }
             return View(vehicle);
         }
 
-        // GET: Vehicle/Edit/5
         [Authorize(Roles = "Admin")]
-        public IActionResult Edit(int id) => View(_context.Vehicles.Find(id));
+        public IActionResult Edit(int id)
+        {
+            try { return View(_repo.GetById(id)); }
+            catch (VehicleNotFoundException ex) { return NotFound(ex.Message); }
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -50,74 +47,51 @@ namespace CarRentalApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Vehicles.Update(vehicle);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
+                _repo.Update(vehicle);
+                return RedirectToAction(nameof(Index));
             }
             return View(vehicle);
         }
 
-        // GET: Vehicle/Delete/5
-        [Authorize(Roles = "Admin")]
-        public IActionResult Delete(int id) => View(_context.Vehicles.Find(id));
-
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-        public IActionResult DeleteConfirmed(int id)
-        {
-            var vehicle = _context.Vehicles.Find(id);
-            if (vehicle != null)
-            {
-                _context.Vehicles.Remove(vehicle);
-                _context.SaveChanges();
-            }
-            return RedirectToAction("Index");
-        }
-
-        // ================= CUSTOMER SECTION =================
-
-        // GET: Vehicle/ChooseRide
         public IActionResult ChooseRide()
         {
-            ViewBag.Brands = _context.Vehicles
-                .Where(v => v.Status == "Available")
-                .Select(v => v.Brand).Distinct().ToList();
+            ViewBag.Brands = _repo.GetAvailableBrands();
             return View();
         }
 
-        public JsonResult GetModels(string brand)
-        {
-            var models = _context.Vehicles
-                .Where(v => v.Brand == brand && v.Status == "Available")
-                .Select(v => v.Model).Distinct().ToList();
-            return Json(models);
-        }
+        public JsonResult GetModels(string brand) => Json(_repo.GetModelsByBrand(brand));
 
         public JsonResult GetVehicleDetails(string model)
         {
-            var vehicle = _context.Vehicles
-                .Where(v => v.Model == model && v.Status == "Available")
-                .Select(v => new {
-                    vehicleID = v.VehicleID,
-                    brand = v.Brand,
-                    model = v.Model,
-                    engineCapacity = v.EngineCapacity,
-                    passengerCapacity = v.PassengerCapacity,
-                    dailyRate = v.DailyRate
-                }).FirstOrDefault();
-            return Json(vehicle);
+            var v = _repo.GetVehicleByModel(model);
+            if (v == null) return Json(null);
+            return Json(new { vehicleID = v.VehicleID, brand = v.Brand, model = v.Model, dailyRate = v.DailyRate });
         }
-        [HttpGet]
-        public JsonResult CalculatePrice(int vehicleId, double hours)
+      
+        [Authorize(Roles = "Admin")]
+        public IActionResult Delete(int id)
         {
-            var vehicle = _context.Vehicles.Find(vehicleId);
-            if (vehicle == null) return Json(0);
+            try
+            {
+              
+                var vehicle = _repo.GetById(id);
+                return View(vehicle);
+            }
+            catch (VehicleNotFoundException)
+            {
+                return NotFound();
+            }
+        }
 
-            // Logic: (DailyRate / 24) * hours
-            double total = (vehicle.DailyRate / 24) * hours;
-
-            return Json(total);
+    
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+        public IActionResult DeleteConfirmed(int VehicleID) 
+        {
+           
+          _repo.Delete(VehicleID);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
