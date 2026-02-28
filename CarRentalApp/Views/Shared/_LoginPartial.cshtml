@@ -7,7 +7,7 @@
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
-            <span class="nav-link text-dark">Hi, <b>@User.Identity?.Name</b>!</span>
+            <span class="nav-link text-dark">Hi, <marquee><b class="text-primary">@User.Identity?.Name!</b></marquee> </span>
         </li>
 
         @if (User.IsInRole("Admin"))

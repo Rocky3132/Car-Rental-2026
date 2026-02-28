@@ -4,6 +4,62 @@
    
     var brands = ViewBag.Brands as IEnumerable<string> ?? new List<string>();
 }
+<<<<<<< HEAD
+<style>
+    .body_background{
+        background:  url("https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=1200&auto=format&fit=crop&q=80") no-repeat center center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        min-width:100%;
+    }
+
+    #details {
+        /* Semi-transparent white background */
+        background: rgba(255, 255, 255, 0.15);
+        /* This creates the frosted glass effect */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        /* Subtle border helps the "glass" look real */
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        /* Soft shadow for depth */
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        /* Keep your existing spacing and rounding */
+        margin: 1.5rem 1rem;
+        border-radius: 2rem;
+        padding: 20px;
+        /* Ensure text is readable against the image */
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .vehic_spec{
+         font-size: 2rem;
+    }
+    #info{
+        font-size: 1.5rem;
+    }
+
+</style>
+
+
+
+<div class="body_background">
+
+
+<h2>Book a Car</h2>
+<label>Brand:</label>
+<select id="brandDrop" class="form-control">
+    <option value="">-- Select Brand --</option>
+    @foreach (var b in ViewBag.Brands)
+    {
+        <option value="@b">@b</option>
+    }
+</select>
+=======
+>>>>>>> origin/master
 
 <div class="container mt-4">
     <div class="card shadow border-0">
@@ -30,6 +86,12 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
+<div id="details" class="mt-4 p-3 border" style="display:none;">
+    <h4 class="vehic_spec">Vehicle Specifications</h4>
+    <div id="info"></div>
+    <a id="bookBtn" class="btn btn-primary mt-2">Continue to Lease</a>
+=======
             <div id="detailsArea" class="mt-4 p-3 border rounded bg-light" style="display:none;">
                 <div id="specs" class="row text-center"></div>
                 <div class="alert alert-info mt-3 small">
@@ -39,6 +101,7 @@
             </div>
         </div>
     </div>
+>>>>>>> origin/master
 </div>
 
 @section Scripts {
@@ -49,6 +112,21 @@
             $('#detailsArea').hide();
             $('#modelDrop').empty().append('<option value="">-- Select Model --</option>').prop('disabled', !b);
 
+<<<<<<< HEAD
+    $("#modelDrop").change(function () {
+        var model = $(this).val();
+        if (model) {
+            $.get("/Vehicle/GetVehicleDetails", { model: model }, function (data) {
+                var html = "<p>Engine: "+data.engineCapacity+"L</p><p>Seats: "+data.passengerCapacity+"</p><p>Rate: $"+data.dailyRate+"/day</p>";
+                $("#info").html(html);
+                $("#bookBtn").attr("href", "/Lease/Create?vehicleId=" + data.vehicleID);
+                $("#details").show();
+            });
+        }
+    });
+</script>
+</div>
+=======
             if (b) {
                 $.get('/Vehicle/GetModels', { brand: b }, function (data) {
                     $.each(data, function (i, m) {
@@ -80,3 +158,4 @@
         });
     </script>
 }
+>>>>>>> origin/master

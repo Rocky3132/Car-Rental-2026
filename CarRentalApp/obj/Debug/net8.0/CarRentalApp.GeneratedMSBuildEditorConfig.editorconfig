@@ -11,109 +11,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRentalApp
 build_property.RootNamespace = CarRentalApp
-build_property.ProjectDir = C:\Users\KIIT\source\NewCar\Car-Rental-2026\CarRentalApp\
+build_property.ProjectDir = E:\wipro\car rental project\Car-Rental-2026\CarRentalApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\KIIT\source\NewCar\Car-Rental-2026\CarRentalApp
+build_property.MSBuildProjectDirectory = E:\wipro\car rental project\Car-Rental-2026\CarRentalApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Customer/Create.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Customer/Index.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Home/Index.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Home/Privacy.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Lease/Create.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Lease/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Lease/Index.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Lease/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Lease/MyRentals.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Lease/MyRentals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2VcTXlSZW50YWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Lease/ReturnSummary.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Lease/ReturnSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhc2VcUmV0dXJuU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Payment/BookingConfirmed.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Payment/BookingConfirmed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxCb29raW5nQ29uZmlybWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Payment/Index.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Payment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Payment/Process.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Payment/Process.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQcm9jZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Payment/Success.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Payment/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Shared/Error.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Shared/_LoginPartial.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Vehicle/ChooseRide.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Vehicle/ChooseRide.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxDaG9vc2VSaWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Vehicle/Create.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Vehicle/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Vehicle/Delete.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Vehicle/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Vehicle/Edit.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Vehicle/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Vehicle/Index.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Vehicle/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/_ViewImports.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/_ViewStart.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KIIT/source/NewCar/Car-Rental-2026/CarRentalApp/Views/Shared/_Layout.cshtml]
+[E:/wipro/car rental project/Car-Rental-2026/CarRentalApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e9za9i4z5v

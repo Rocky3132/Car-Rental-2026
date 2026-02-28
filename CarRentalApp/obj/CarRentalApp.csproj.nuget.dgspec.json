@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj": {}
+  },
+  "projects": {
+    "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
+        "projectName": "CarRentalApp",
+        "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\CarRentalApp\\obj\\",
+=======
     "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj": {}
   },
   "projects": {
@@ -12,12 +25,13 @@
         "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\CarRentalApp.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\CarRentalApp\\obj\\",
+>>>>>>> origin/master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +46,19 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\DAL.csproj"
+              },
+              "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj": {
+                "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj"
+=======
               "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj"
               },
               "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj"
+>>>>>>> origin/master
               }
             }
           }
@@ -101,6 +123,16 @@
         }
       }
     },
+<<<<<<< HEAD
+    "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\DAL\\obj\\",
+=======
     "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -109,12 +141,13 @@
         "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\DAL\\obj\\",
+>>>>>>> origin/master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,8 +162,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj": {
+                "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj"
+=======
               "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj"
+>>>>>>> origin/master
               }
             }
           }
@@ -186,6 +224,16 @@
         }
       }
     },
+<<<<<<< HEAD
+    "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\wipro\\car rental project\\Car-Rental-2026\\Models\\obj\\",
+=======
     "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -194,12 +242,13 @@
         "projectPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\KIIT\\source\\NewCar\\Car-Rental-2026\\Models\\obj\\",
+>>>>>>> origin/master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
